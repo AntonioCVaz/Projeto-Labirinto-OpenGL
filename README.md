@@ -2,13 +2,21 @@
 
 Este projeto é um jogo de exploração de um labirinto 3D desenvolvido em C++ com a biblioteca gráfica OpenGL. O objetivo é navegar pelo labirinto, encontrar e abrir 3 baús para ativar um portal e chegar ao final.
 
+## Vídeo de Apresentação
+
+Assista a uma demonstração completa do projeto e das suas funcionalidades no YouTube:
+
+[![Demonstração do Projeto Labirinto 3D](https://img.youtube.com/vi/Hkqo7NpuDEU/0.jpg)](https://youtu.be/Hkqo7NpuDEU)
+
+**[Clique aqui para ver o vídeo](https://youtu.be/Hkqo7NpuDEU)**
+
 ## Funcionalidades
 
-* **Câmara em Primeira Pessoa:** Movimentação livre pelo cenário com controlos padrão (WASD + Mouse).
+* **Câmara em Primeira Pessoa:** Movimentação livre pelo cenário com controlos padrão (WASD + Rato).
 * **Colisão com o Cenário:** Um sistema de colisão baseado em caixas delimitadoras (AABB) impede que o jogador atravesse paredes e o chão.
 * **Objetos Interativos:** Os baús podem ser abertos através da proximidade e de um clique, ativando uma animação de "levitação" da tampa.
 * **Sistema de Jogo:** O objetivo é abrir 3 baús para ativar um portal. Ao interagir com o portal, o jogo exibe mensagens de estado.
-* **Interface de Utilizador (UI):** O display mostra um contador de baús abertos e mensagens dinâmicas, como o objetivo atual ("Procure o portal!") e a mensagem de vitória ("FIM").
+* **Interface de Utilizador (UI):** O ecrã mostra um contador de baús abertos e mensagens dinâmicas, como o objetivo atual ("Procure o portal!") e a mensagem de vitória ("FIM").
 
 ## Tecnologias Utilizadas
 
@@ -42,7 +50,6 @@ sudo apt-get update && sudo apt-get install build-essential cmake libglfw3-dev l
 
 Clone este repositório para o seu computador:
 ```bash
-# Substitua o URL pelo URL do seu repositório no GitHub
 git clone [https://github.com/AntonioCVaz/Labirinto-OpenGL.git](https://github.com/AntonioCVaz/Labirinto-OpenGL.git)
 cd Labirinto-OpenGL
 ```
@@ -83,7 +90,6 @@ No Windows, o processo é mais fácil usando o **Visual Studio** e o gestor de p
 #### 2. Instalar Dependências com vcpkg
 
 O `vcpkg` irá descarregar e compilar as bibliotecas necessárias para nós.
-
 Abra um terminal **PowerShell como Administrador** e execute os seguintes comandos, um de cada vez:
 
 ```powershell
@@ -111,7 +117,6 @@ cd vcpkg
 2.  Navegue para a pasta onde quer guardar o projeto (ex: `cd Documents`).
 3.  Clone o repositório:
     ```bash
-    # Substitua o URL pelo URL do seu repositório no GitHub
     git clone [https://github.com/AntonioCVaz/Labirinto-OpenGL.git](https://github.com/AntonioCVaz/Labirinto-OpenGL.git)
     ```
 4.  Abra o **Visual Studio 2022**.
@@ -129,6 +134,6 @@ Após a compilação, pode executar o projeto diretamente a partir do Visual Stu
 ## Controles
 
 * **W, A, S, D**: Mover a câmara.
-* **Mouse**: Olhar ao redor.
+* **Rato**: Olhar ao redor.
 * **Clique Esquerdo**: Interagir com o baú ou portal mais próximo.
 * **ESC**: Fechar o programa.
