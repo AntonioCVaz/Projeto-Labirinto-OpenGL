@@ -4,9 +4,11 @@ Este projeto é um jogo de exploração de um labirinto 3D desenvolvido em C++ c
 
 ## Vídeo de Apresentação
 
-Assista a uma demonstração completa do projeto e das suas funcionalidades no YouTube. Clique na imagem abaixo para ver o vídeo:
+Assista a uma demonstração completa do projeto e das suas funcionalidades no YouTube:
 
 [![Demonstração do Projeto Labirinto 3D](https://img.youtube.com/vi/Hkqo7NpuDEU/0.jpg)](https://youtu.be/Hkqo7NpuDEU)
+
+**[Clique aqui para ver o vídeo](https://youtu.be/Hkqo7NpuDEU)**
 
 ## Funcionalidades
 
